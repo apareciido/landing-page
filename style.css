@@ -1,0 +1,119 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+header {
+    background-image: linear-gradient(to left, #083374, #a3a3f3);
+    height: 200px;
+}
+.headline {
+    margin: auto;
+    max-width: 800px;
+    min-width: 320px;
+    color: white
+}
+.headline h1 {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+.headline h2 {
+    color: #00ff00;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+main {
+    margin: auto;
+}
+.paragrafo {
+    padding-top: 40px;
+    background-color: #000000;
+    text-justify: distribute;
+    margin: auto;
+    max-width: 800px;
+    min-width: none;
+    color: white;
+    height: 200px;
+}
+.paragrafo p {
+    font-weight: normal;
+    text-align: center;
+    font-size: 20px;
+}
+.paragrafo span {
+    background-color: green;
+    padding: 2px;
+    border-radius: 3px;
+}
+.learn {
+    text-align: center;
+    padding: 20px;
+    color: green;
+    background-color: black;
+}
+.learn > h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+}
+.content-course {
+    display: flex;
+    background-color: black;
+    max-width: 1800px;
+    height: 800px;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.content-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #a3a3f3;
+    height: 350px;
+    width: 250px;
+    border-radius: 20px;
+    
+}
+.content-item div {
+    height: 100px;
+    padding-bottom: 20px;
+}
+.content-item h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.content-item p {
+    text-align: center;
+}
+.alvo {
+    margin: auto;
+    background-color: #00a100;
+    max-width: 800px;
+    padding: 30px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px #00a100;
+    border: solid #00ff00;
+
+}
+.alvo h3 {
+    text-align: center;
+    font-weight: bold;
+}
+.alvo span {
+    font-weight: bold;
+    font-size: 20px;
+}
+.alvo li {
+    font-size: 20px;
+}
+
