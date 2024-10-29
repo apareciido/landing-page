@@ -8,8 +8,7 @@ body {
     background-color: black;
 }
 header {
-    background-image: linear-gradient(to left, #083374, #a3a3f3);
-    height: 200px;
+    background-image: linear-gradient(to left, #296EB4, #1789FC);
 }
 .headline {
     margin: auto;
@@ -23,7 +22,7 @@ header {
     padding-top: 20px;
 }
 .headline h2 {
-    color: #00ff00;
+    color: white;
     font-size: 25px;
     text-align: center;
     padding-bottom: 20px;
@@ -53,6 +52,7 @@ main {
 }
 .learn {
     text-align: center;
+    margin-top: 20px;
     padding: 20px;
     color: green;
     background-color: black;
@@ -66,7 +66,6 @@ main {
     display: flex;
     background-color: black;
     max-width: 1800px;
-    height: 800px;
     margin: auto;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -76,7 +75,8 @@ main {
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: center;
-    background-color: #a3a3f3;
+    background-color: #1789FC;
+    margin: 10px;
     height: 350px;
     width: 250px;
     border-radius: 20px;
@@ -96,6 +96,7 @@ main {
 }
 .alvo {
     margin: auto;
+    margin-top: 20px;
     background-color: #00a100;
     max-width: 800px;
     padding: 30px;
@@ -116,4 +117,24 @@ main {
 .alvo li {
     font-size: 20px;
 }
-
+.receive {
+    color: green;
+    text-align: center;
+    padding: 10px;
+}
+.vantagens {
+    background-color: #1789FC;
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+}
+.vantagens div {
+    max-width: 800px;
+    margin: auto;
+}
+.vantagens li {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 0px;
+    list-style: none;
+}
