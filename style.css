@@ -65,7 +65,7 @@ main {
 }
 .learn {
     text-align: center;
-    color: green;
+    color: rgb(255, 255, 255);
     background-color: black;
 }
 .learn > h2 {
@@ -129,7 +129,7 @@ main {
     font-size: 20px;
 }
 .receive {
-    color: green;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px;
 }
@@ -151,16 +151,58 @@ main {
     list-style: none;
 }
 .bônus {
-    margin: auto;
+    margin: 20px auto;
+    max-width: 600px;
     background-color: #00a100;
     border-radius: 10px;
+
+    & summary {
+        font-size: 20px;
+        padding: 10px;
+        color: white;
+    }
+    & p {
+        font-size: 18px;
+        padding: 10px;
+        color: white;
+        margin: 0;
+    }
 }
-.bônus summary {
-    font-family: Arial, Helvetica, sans-serif;
+.depoimentos {
+    background-color: white;
+
+    & p {
+        padding: 10px;
+        font-size: 18px;
+    }
+    
+}
+.buy {
     color: white;
-    font-size: 25px;
-    padding: 15px;
-    background-color: #00a100;
-    margin-top: 10px;
-    border-radius: 20px;
+    font-size: 45px;
+    text-align: center;
+    background-image: linear-gradient(to right, #00a100, #044404);
+    padding: 20px;
+
+    .parcela {
+        background-color: rgb(54, 53, 53);
+        padding: 30px;
+        width: 350px;
+        margin: auto;
+        border-radius: 20px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    p {
+        font-size: 20px;
+    }
+    button {
+        font-size: 25px;
+        color: white;
+        border-radius: 10px;
+        background-color: #00a100;
+        border: none;
+        padding: 10px;
+    }
 }
